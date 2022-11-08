@@ -40,6 +40,46 @@
         }
     }
 
+    @keyframes prevImage1 {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes prevImage2 {
+        0% {
+            transform: translateX(-200%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    @keyframes prevImage3 {
+        0% {
+            transform: translateX(-300%);
+        }
+
+        100% {
+            transform: translateX(-200%);
+        }
+    }
+
+    @keyframes prevImage4 {
+        0% {
+            transform: translateX(-400%);
+        }
+
+        100% {
+            transform: translateX(-300%);
+        }
+    }
+
     &_card {
         width: 95%;
         margin: 3rem auto;
@@ -94,6 +134,22 @@
 
         .next_image4 {
             animation: nextImage4 0.8s both;
+        }
+
+        .prev_image1 {
+            animation: prevImage1 0.8s both;
+        }
+
+        .prev_image2 {
+            animation: prevImage2 0.8s both;
+        }
+
+        .prev_image3 {
+            animation: prevImage3 0.8s both;
+        }
+
+        .prev_image4 {
+            animation: prevImage4 0.8s both;
         }
 
 
